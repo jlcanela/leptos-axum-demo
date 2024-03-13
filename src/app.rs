@@ -19,7 +19,7 @@ pub fn App() -> impl IntoView {
         scope: Some("openid".to_string()),
     };
 
-    //let auth = Auth::init(auth_parameters);
+    let auth = Auth::init(auth_parameters);
 
     view! {
 
